@@ -1514,3 +1514,15 @@ section.courses-section.py-4.position-relative {
     width: 100%;
   }
 }
+.success-message {
+  display: none;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+}
+.loading-message {
+  display: none;
+  color: blue;
+  text-align: center;
+  margin-top: 20px;
+}
