@@ -268,7 +268,7 @@ document.querySelectorAll(".contactForm").forEach(function (form) {
     loadingMessage.style.display = "block";
     successMessage.style.display = "none";
 
-    fetch("http://localhost:8080/contact", {
+    fetch("https://bharath-university.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -292,5 +292,32 @@ document.querySelectorAll(".contactForm").forEach(function (form) {
         loadingMessage.style.display = "none";
         console.error("Error:", error);
       });
+  });
+});
+
+
+
+
+$(document).ready(function () {
+  var collegeURL = '';
+
+  $('.item-assured').on('click', function () {
+      collegeURL = $(this).data('url');
+  });
+
+  $('#contact-form-1').on('submit', function (e) {
+      e.preventDefault();
+
+      // Simulate sending the form data
+      $('.loading-message').show();
+      setTimeout(function () {
+          $('.loading-message').hide();
+          $('.success-message').show();
+
+          // Redirect to the respective college website after displaying the success message
+          setTimeout(function () {
+              window.location.href = collegeURL;
+          }, 2000); // Adjust the delay as needed
+      }, 1000); // Simulate form submission delay
   });
 });

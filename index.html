@@ -48,6 +48,12 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
     <link rel="stylesheet" href="./index.css" />
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
     <script src="./index.js"></script>
@@ -201,8 +207,8 @@
                               font-size: 11px;
                             "
                           >
-                            By proceeding ahead you expressly agree to
-                            CollegeDekho to contact you via Whatsapp and other
+                            By proceeding ahead you expressly agree to MS
+                            Education to contact you via Whatsapp and other
                             channels with suitable college options.
                           </p>
                         </div>
@@ -283,7 +289,7 @@
       <div class="container">
         <div class="widget-title text-center mb-4">
           <h3 class="font-weight-900">
-            <span class="">Why </span><span class="pnb"> BIST? </span>
+            <span class="">Why </span><span class="pnb"> BIHER? </span>
           </h3>
         </div>
         <div class="row py-0 pt-2">
@@ -347,6 +353,90 @@
             >
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Section for Colleges -->
+    <section class="position-relative py-5 placements-sec">
+      <div class="container">
+        <div class="widget-title text-center mb-4">
+          <h3 class="font-weight-900"><span>Our Esteemed Colleges</span></h3>
+        </div>
+        <div class="row py-0 pt-2">
+          <div class="col-lg-3 col-md-3 col-6">
+            <div
+              class="item-assured text-center"
+              data-target="#college"
+              data-toggle="modal"
+              data-url="https://bmch.ac.in"
+            >
+              <div class="job-assues">
+                <img src="https://bmch.ac.in/images/logo.png" class="clg-css">
+                <p>
+                  Bhaarath Medical College and Hospital<span class="pnb"
+                    >(BMCH)</span
+                  >, Chennai
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div
+              class="item-assured text-center"
+              data-target="#college"
+              data-toggle="modal"
+              data-url="https://slims.ac.in"
+            >
+              <div class="job-assues">
+                <img src="https://slims.ac.in/images/logo.png" class="clg-css"/>
+                <p>
+                  Sri Lakshmi Narayana Institute of Medical Sciences<span
+                    class="pnb"
+                    >(SLIMS)</span
+                  >, Pudhucherry
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div
+              class="item-assured text-center"
+              data-target="#college"
+              data-toggle="modal"
+              data-url="https://jrmch.ac.in/"
+            >
+              <div class="job-assues">
+                <img src="https://jrmch.ac.in/images/jrlogo.png" class="clg-css"/>
+                <p>
+                  <span class="pnb">JR</span> Medical College & Hospital,
+                  Chennai
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-6">
+            <div
+              class="item-assured text-center"
+              data-target="#college"
+              data-toggle="modal"
+              data-url="https://sbmch.ac.in"
+            >
+              <div class="job-assues asd">
+                <img src="https://sbmch.ac.in/wp-content/uploads/2022/08/sbmch-logo.webp" class="clg-css"/>
+                <p>
+                  Sree Balaji Medical College and Hospital<span class="pnb"
+                    >(SBMCH)</span
+                  >, Chennai
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="apply-btns mt-5 mb-3 aos-item aos-init aos-animate"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        ></div>
       </div>
     </section>
     <!-- Hero section end (Slider) -->
@@ -670,7 +760,7 @@
                 <span class="text-orange"> Fee Structure </span>
               </h4>
               <p class="pop-pre">
-                Get quick insights about ranking, infrastucture and more!
+                Get quick insights about ranking, infrastucture and more
               </p>
             </div>
             <div class="modal-body">
@@ -764,8 +854,8 @@
                             font-size: 11px;
                           "
                         >
-                          By proceeding ahead you expressly agree to
-                          CollegeDekho to contact you via Whatsapp and other
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
                           channels with suitable college option
                         </p>
                       </div>
@@ -943,8 +1033,8 @@
                             font-size: 11px;
                           "
                         >
-                          By proceeding ahead you expressly agree to
-                          CollegeDekho to contact you via Whatsapp and other
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
                           channels with suitable college options.
                         </p>
                       </div>
@@ -1015,6 +1105,122 @@
         </div>
       </div>
     </div>
+    <!-- popupform0-Modal-close --><!-- Modal -->
+    <div class="modal fade" id="college" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="form-right-sec">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal" type="button">
+                ×
+              </button>
+              <h4 class="modal-title">
+                Register For Free to
+                <span class="text-orange"> Know More </span>About College!
+              </h4>
+              <p>Get quick insights about ranking, infrastructure and more!</p>
+            </div>
+            <div class="modal-body">
+              <div class="contact_fild CLDGen_Exploremore_Submit">
+                <form id="contact-form-1" class="contactForm" method="post">
+                  <div class="formIDfid">
+                    <div class="contact-fild-box">
+                      <div class="form-group">
+                        <input
+                          class="form-control validate[required]"
+                          name="name"
+                          placeholder="Enter Name*"
+                          required=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div class="contact-fild-box">
+                      <div class="form-group">
+                        <input
+                          class="form-control validate[required, custom[email]]"
+                          name="email"
+                          placeholder="Enter Email*"
+                          required=""
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div class="contact-fild-box">
+                      <div class="form-group">
+                        <input
+                          class="form-control validate[required, custom[phone]]"
+                          id="phone"
+                          name="phone"
+                          placeholder="Enter Mobile Number*"
+                          required=""
+                          type="tel"
+                        />
+                        <input name="stream" type="hidden" value="3" />
+                        <input name="pref_level" type="hidden" value="1" />
+                        <input name="state" type="hidden" value="31" />
+                        <input name="college_id" type="hidden" value="42216" />
+                        <input
+                          name="pref_state"
+                          style="display: none"
+                          type="number"
+                          value="31"
+                        />
+                        <input
+                          class="utm_up"
+                          id="camp_id"
+                          name="campaign_id"
+                          type="hidden"
+                          value=""
+                        />
+                        <input
+                          name="landing_form_id"
+                          type="hidden"
+                          value="Primary Form Submit"
+                        />
+                      </div>
+                    </div>
+                    <div class="contact-fild-box text-center">
+                      <div class="form-group">
+                        <p
+                          style="
+                            line-height: 16px;
+                            color: #333;
+                            font-size: 11px;
+                          "
+                        >
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
+                          channels with suitable college options.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-fild-box text-center">
+                      <div class="form-group">
+                        <button class="btn btn_submit" type="submit">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                    <!-- Loading Message -->
+                    <div class="loading-message" style="display: none">
+                      Sending your message, please wait...
+                    </div>
+                    <!-- Success Message -->
+                    <div class="success-message" style="display: none">
+                      Thank you for contacting us! Your message has been sent
+                      successfully.
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- cse Modal -->
     <div class="modal fade" id="cse" role="dialog">
       <div class="modal-dialog">
@@ -1124,8 +1330,8 @@
                             font-size: 11px;
                           "
                         >
-                          By proceeding ahead you expressly agree to
-                          CollegeDekho to contact you via Whatsapp and other
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
                           channels with suitable college option
                         </p>
                       </div>
@@ -1306,8 +1512,8 @@
                             font-size: 11px;
                           "
                         >
-                          By proceeding ahead you expressly agree to
-                          CollegeDekho to contact you via Whatsapp and other
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
                           channels with suitable college option
                         </p>
                       </div>
@@ -1490,8 +1696,8 @@
                             font-size: 11px;
                           "
                         >
-                          By proceeding ahead you expressly agree to
-                          CollegeDekho to contact you via Whatsapp and other
+                          By proceeding ahead you expressly agree to MS
+                          Education to contact you via Whatsapp and other
                           channels with suitable college option
                         </p>
                       </div>
@@ -1598,3 +1804,31 @@
   $(document).ready(function () {});
 </script>
 <script src="https://static.collegedekho.com/static-up/js/pagebuilder/landing.646ce73b72f5.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var collegeURL = "";
+
+    $(".item-assured").on("click", function () {
+      collegeURL = $(this).data("url");
+    });
+
+    $("#contact-form-1").on("submit", function (e) {
+      e.preventDefault();
+
+      // Simulate sending the form data
+      $(".loading-message").show();
+      setTimeout(function () {
+        $(".loading-message").hide();
+        $(".success-message").show();
+
+        // Redirect to the respective college website after displaying the success message
+        setTimeout(function () {
+          window.location.href = collegeURL;
+        }, 2000); // Adjust the delay as needed
+      }, 1000); // Simulate form submission delay
+    });
+  });
+</script>
